@@ -1,0 +1,11 @@
+@import "../../style/mixins.scss";
+
+.nft-collection {
+  @include flex(row, flex-start, center, 20px);
+  margin: 20px 0;
+  flex-wrap: wrap;
+}
+.extras {
+  @include flex(column, center, center, 20px);
+  margin-bottom: 20px;
+}

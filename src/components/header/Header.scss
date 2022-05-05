@@ -1,0 +1,10 @@
+@import "../../style/mixins.scss";
+
+.title-text {
+  margin-left: 10px !important;
+  text-align: left;
+}
+.buttons {
+  display: flex;
+  gap: 10px;
+}

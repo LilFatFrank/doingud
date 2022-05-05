@@ -1,0 +1,23 @@
+.asset-card {
+  width: 300px;
+  height: auto;
+  padding: 10px;
+  border: 1px solid var(--primary);
+  border-radius: 10px;
+  cursor: pointer;
+  .asset-name {
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+  .asset-description {
+    width: 100%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    max-height: 65px;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+  }
+}
